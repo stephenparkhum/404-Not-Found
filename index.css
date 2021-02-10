@@ -106,6 +106,12 @@ footer p {
         font-weight: 700;
     }
 
+    .container--inner p {
+        width: 90%;
+        font-size: calc(1rem + 2px);
+        line-height: 1.625rem;
+    }
+
     footer {
         position: relative;
         margin: 5rem 0 0 0 ;
