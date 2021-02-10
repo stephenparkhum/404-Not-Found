@@ -65,6 +65,8 @@ header h1 {
     color: var(--white);
     border: none;
     padding: 20px;
+    width: 216px;
+    height: 68px;
     font-family: 'Space Mono', monospace;
     text-transform: uppercase;
     cursor: pointer;
@@ -110,6 +112,10 @@ footer p {
         width: 90%;
         font-size: calc(1rem + 2px);
         line-height: 1.625rem;
+    }
+
+    .container--inner a button {
+        margin: 1.5rem 0;
     }
 
     footer {
