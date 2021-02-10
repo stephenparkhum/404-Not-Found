@@ -95,8 +95,13 @@ footer p {
 
 /* MOBILE STYLING */
 @media only screen and (max-width: 768px) {
+    main {
+        width: 90%;
+        padding: 2rem 0;
+    }
+
     .indent {
-        margin: 1.5rem 2.8rem;
+        margin: 1.5rem 5%;
     }
 
     .container {
